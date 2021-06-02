@@ -1,0 +1,24 @@
+#Using Git
+
+#git init- to initialize git into the present working directory.
+
+#git status - show the wroking tree status
+
+#git add [ filename] - this command adds the file in the staging directory
+
+#git commit [filename] -  to capture the state of a file or project at that point in time.
+						  it is always committed to local repository
+
+# git log -   Show the commits that were made
+
+# git diff [filename]  -  the difference between current version of the file and the last point in git repository
+
+# git remote add origin [link] - to push or link out existing respository to github
+
+#git push -u origin master - it pushes out local respository to the remote respository using -u flag and it links our local respository to remote respository
+							 and add its the repository called master branch
+							 
+#inorder to ignore commit sensitive file we add the name of the file in a file [touch .gitignore]
+ 							 
+#git clone[lin of the source code]  -  used to clone a project from git hub 						 
+							
